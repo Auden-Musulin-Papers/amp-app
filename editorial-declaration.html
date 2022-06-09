@@ -78,187 +78,150 @@
                   <div class="col-md-12">
                      <div class="col-md-12">
                         
-                        <h3>Transcription Guidelines</h3>               
+                        <h3>Transcription Guidelines</h3>
+                        
+                        <p>Source transcriptions as encoded in TEI/XML represent the spelling, punctuation, and
+                           revisions as they appear, aiming for minimal editorial intervention or interpretation.</p>                   
                         
                         <ol class="numbered">
                            
-                           <li data-no="1">Diplomatic transcriptions represent the spelling, punctuation, layout, and revisions
-                              as they appear, with minimal editorial intervention or interpretation.           
-                              
+                           <li data-no="1">
+                              Spelling
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="1.1">
-                                    Spelling
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.1.1">The original spelling in both manuscripts and typescripts is retained, even if irregular
-                                          (example: Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W.
-                                          H. Auden "Freedom and Necessity in the Arts" 1970-05-21, page 9, line 8).</li>
-                                       
-                                       <li data-no="1.1.2">Signs that cannot be transcribed with certainty are marked up as &lt;unclear&gt; in XML
-                                          and represented in grey on the web page (example: Autograph Letter Signed W. H. Auden
-                                          to Stella Musulin 1973-09-24, page 3, line 9).</li>
-                                       
-                                       <li data-no="1.1.3">Manuscript signs are not marked up as 'unclear' when they can be identified as a consistent
-                                          and typical feature of the respective author's handwriting (example: "address", Autograph
-                                          Letter Signed W. H. Auden to Stella Musulin 1968-10-15, page 3, line 25).</li>
-                                       
-                                       <li data-no="1.1.4">Signatures are not marked up as 'unclear'.</li>
-                                       
-                                       <li data-no="1.1.5">Signs that cannot be transcribed are marked up as &lt;gap&gt; in XML and represented by
-                                          means of grey square brackets on the web page (example: Autograph Letter Signed W.
-                                          H. Auden to Stella Musulin 1968-10-12, page 3, line 7).</li>
-                                       </ol>
-                                    </li>                          
+                                 <li data-no="1.1">The original spelling in both manuscripts and typescripts is retained, even if irregular.</li>
+                                 
+                                 <li data-no="1.2">Characters that cannot be transcribed with certainty are marked up as &lt;unclear&gt; in
+                                    XML and can be highlighted in grey on the web page.</li>
+                                 
+                                 <li data-no="1.3">Handwritten characters are not marked up as &lt;unclear&gt; in XML when they can be identified
+                                    as a consistent and typical feature of the respective author's handwriting.</li>
+                                 
+                                 <li data-no="1.4">Signatures are not marked up as &lt;unclear&gt;.</li>
+                                 
+                                 <li data-no="1.5">Characters that cannot be transcribed are marked up as &lt;gap&gt; in XML and represented
+                                    by means of square brackets on the web page.</li>
                                  </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.2">Numericals
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.2.1">For typescripts, the characters 'I' (uppercase i) and 'O' (uppercase o) designating
-                                          the numbers 1 and 0 (zero), respectively, are preserved.</li>
-                                       
-                                       <li data-no="1.2.2">For manuscripts, the anglophone variant writing of the numeral 1 is represented by
-                                          '1'.</li>
-                                       </ol>
-                                    </li> 
-                                 </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.3">Punctuation and Spaces
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.3.1">The original punctuation and spaces are retained, even if irregular (example: Autograph
-                                          Letter Signed W. H. Auden to Stella Musulin 1968-10-12, page 3, line 4).</li>
-                                       
-                                       <li data-no="1.3.2">Punctuation signs that cannot be transcribed with certainty are rendered by UTF-8/Unicode
-                                          symbols that represent a graphical approximation, marked up as &lt;unclear&gt; in XML, and
-                                          represented in grey on the web page (example: Autograph Letter Signed W. H. Auden
-                                          to Stella Musulin 1965-09-29, page 3, line 16).</li>
-                                       
-                                       <li data-no="1.3.3">When spaces before or after punctuation marks are significantly smaller than the spaces
-                                          separating words in the surrounding text, no spaces are transcribed (example: Letter
-                                          W. H. Auden to Stella Musulin 1962-09-11, page 3, line 12).</li>
-                                       
-                                       <li data-no="1.3.4">For manuscripts, the length of spaces between words is regularized (example: Autograph
-                                          Letter Signed W. H. Auden to Stella Musulin 1968-10-12, page 3, line 6).</li>
-                                       
-                                       <li data-no="1.3.5">For typescripts, the number of spaces within sentences is preserved and marked up
-                                          as &lt;space&gt; in XML (example: Typescript Stella Musulin "In Retrospect" [?], page 1,
-                                          line 2).</li>
-                                       
-                                       <li data-no="1.3.6">In typescripts, line-inital spaces are preserved and marked up as &lt;space&gt; if they
-                                          can plausibly be interpreted as indentations.</li>
-                                       </ol>
-                                    </li>
-                                 </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.4">Original line breaks and divisions between blocks of text are retained.</li>                           
-                                 </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.5">Underline
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and graphically represented on the
-                                          web page.</li>
-                                       
-                                       <li data-no="1.5.2">Underlines are not represented if the form part of signatures.</li>
-                                       
-                                       <li data-no="1.5.3">Underlines in typescripts are rendered precisely and include, for instance, empty
-                                          spaces before or after words; transcriptions of underlines in manuscripts ignore underlined
-                                          spaces before or after words.</li>
-                                       
-                                       <li data-no="1.5.4">In longer underlined passages, apparently random interruptions in underlines are ignored.</li>
-                                       </ol>
-                                    </li>                          
-                                 </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.6">Characters whose legibility is impaired by smudges and overwritings are marked up
-                                    as &lt;unclear&gt; in XML and represented in grey on the web page.</li>
-                                 </ol>   
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.7">Revisions
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.7.1">The transcriptions represent deletions of text (example: Autograph Letter Signed W.
-                                          H. Auden to Stella Musulin 1964-12-23, page 3, line 26).</li>
-                                       
-                                       <li data-no="1.7.2">For overwritings in manuscripts and typescripts, we have accepted the orthographically
-                                          or grammatically accurate versions as corrections, even if the actual sequences of
-                                          textual layers cannot be reconstructed (example: Typescript Stella Musulin "In Retrospect"
-                                          [?], page 1, line 27).</li>
-                                       
-                                       <li data-no="1.7.3">For transcriptions of typescripts, we accept the use of the signs 'x', 'm', 'z', and
-                                          '-' as indicating deletions where such deletion seems plausible.</li>
-                                       
-                                       <li data-no="1.7.4">When additions are inserted into manuscripts or typescripts, surrounding spaces are
-                                          included in ways that are coherent with the general use of spaces in the respective
-                                          texts (that especially concerns spaces after punctuation in typescripts).</li>
-                                       
-                                       <li data-no="1.7.5">When additions replace deleted words in typescripts, they are inserted directly after
-                                          the deletions without additional spaces.</li>
-                                       
-                                       <li data-no="1.7.6">When it is uncertain whether characters have been deleted, the passage in question
-                                          is marked up as &lt;unclear&gt;&lt;del&gt;&lt;gap reason="deleted"/&gt;&lt;del/&gt;&lt;unclear/&gt;.</li>
-                                       
-                                       <li data-no="1.7.7">For typescripts by Musulin, we accept handwritten underlines of deleted passages as
-                                          cancelled deletions.</li>
-                                       </ol>
-                                    </li>                             
-                                 </ol>
-                              
-                              <ol class="numbered">
-                                 
-                                 <li data-no="1.8">Pre-printed Components and Postal Additions
-                                    
-                                    <ol class="numbered">
-                                       
-                                       <li data-no="1.8.1">Pre-printed letter heads and sender addresses are transcribed (example: Autograph
-                                          Letter Signed W. H. Auden to Stella Musulin 1968-10-06, page 2, lines 1-3).</li>
-                                       
-                                       <li data-no="1.8.2">Image captions in postcards are transcribed (example: Autograph Note Signed Michael
-                                          O'Sullivan to Stella Musulin [?], page 1, lines 1-2, 12-15).</li>
-                                       
-                                       <li data-no="1.8.3">Postmarks and stamps are not transcribed.</li>
-                                       
-                                       <li data-no="1.8.4">Pre-printed postal text and images in telegrams and aerograms are not rendered in
-                                          the transcriptions (example: Telegram W. H. Auden to Stella Musulin 1971-05-13).</li>
-                                       </ol>
-                                    </li>                           
-                                 </ol>
-                              </li>
+                              </li>                          
+                           </ol>
+                        
+                        <ol class="numbered">
                            
-                           <li data-no="2">Reading views represent more easily readable versions of diplomatic transcriptions.                        
+                           <li data-no="2">Numericals
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="2.1">The use of multiple spaces in typescripts is regularized and represented as a single
-                                    space on the web page.</li>
+                                 <li data-no="2.1">For typescripts, the characters 'I' (uppercase i) and 'O' (uppercase o) designating
+                                    the numbers 1 and 0 (zero), respectively, are preserved.</li>
                                  
-                                 <li data-no="2.2">Underlined text in manuscripts and typescripts is italicized in accordance with editing
-                                    practices applied in <span class="italic">The Complete Works of W. H. Auden</span> edited by Edward Mendelson.</li>
+                                 <li data-no="2.2">For manuscripts, the anglophone variant writing of the numeral 1 is represented by
+                                    '1'.</li>
+                                 </ol>
+                              </li> 
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="3">Punctuation and Spaces
+                              
+                              <ol class="numbered">
                                  
-                                 <li data-no="2.3">The reading views do not represent deletions, but the text as corrected or added.</li>
-                                 </ol>                        
+                                 <li data-no="3.1">The original punctuation is retained, even if irregular.</li>
+                                 
+                                 <li data-no="3.2">Punctuation signs that cannot be transcribed with certainty are rendered by UTF-8/Unicode
+                                    symbols that represent a graphical approximation, marked up as &lt;unclear&gt; in XML.</li>
+                                 
+                                 <li data-no="3.3">For manuscripts, when spaces before or after punctuation marks are significantly smaller
+                                    than the spaces separating words in the surrounding text, no spaces are transcribed.</li>
+                                 
+                                 <li data-no="3.4">For manuscripts, the length of spaces between words is regularized and represented
+                                    as either single space or no space.</li>
+                                 
+                                 <li data-no="3.5">For typescripts, the exact number of spaces within sentences is preserved and marked
+                                    up as &lt;space&gt; in XML.</li>
+                                 </ol>
                               </li>
-                           </ol>               
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="4">Original line breaks and divisions between blocks of text are retained.</li>                           
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="5">Underline
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and can be graphically represented
+                                    on the web page.</li>
+                                 
+                                 <li data-no="5.2">Underlines are not represented if they form part of signatures.</li>
+                                 
+                                 <li data-no="5.3">Underlines in typescripts are rendered precisely and include, for instance, empty
+                                    spaces before or after words if they are underlined in the source document; transcriptions
+                                    of underlines in manuscripts ignore underlined spaces before or after words.</li>
+                                 </ol>
+                              </li>                          
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="6">Characters whose legibility is impaired by smudges and overwritings are marked up
+                              as &lt;unclear&gt; in XML and can be represented in grey on the web page.</li>
+                           </ol>   
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="7">Revisions
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="7.1">Deletions of text are marked up as &lt;del&gt; in XML and can be represented on the web
+                                    page.</li>
+                                 
+                                 <li data-no="7.2">For overwritings in manuscripts and typescripts, we have accepted the orthographically
+                                    or grammatically accurate versions as corrections, even if the actual sequences of
+                                    textual layers cannot be reconstructed.</li>
+                                 
+                                 <li data-no="7.3">For transcriptions of typescripts, we accept the use of the signs 'x', 'm', 'z', and
+                                    '-' as indicating deletions where such deletion seems plausible.</li>
+                                 
+                                 <li data-no="7.4">When additions are inserted into manuscripts or typescripts, surrounding spaces are
+                                    included in ways that are coherent with the general use of spaces in the respective
+                                    texts.</li>
+                                 
+                                 <li data-no="7.5">When additions replace deleted words in typescripts, they are inserted directly after
+                                    the deletions without additional spaces in between.</li>
+                                 
+                                 <li data-no="7.6">When it is uncertain whether characters have been deleted, the passage in question
+                                    is marked up as &lt;unclear&gt;&lt;del&gt;&lt;gap reason="deleted"/&gt;&lt;del/&gt;&lt;unclear/&gt;.</li>
+                                 
+                                 <li data-no="7.7">For typescripts by Musulin, we accept handwritten underlines of deleted passages as
+                                    cancelled deletions.</li>
+                                 </ol>
+                              </li>                             
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="8">Pre-printed Components and Postal Additions
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="8.1">Pre-printed letter heads and sender addresses are transcribed.</li>
+                                 
+                                 <li data-no="8.2">Image captions in postcards are transcribed.</li>
+                                 
+                                 <li data-no="8.3">Postmarks and stamps are not transcribed.</li>
+                                 
+                                 <li data-no="8.4">Pre-printed postal texts and images in telegrams and aerograms are not rendered in
+                                    the transcriptions.</li>
+                                 </ol>
+                              </li>                           
+                           </ol>    
                         </div>
                   </div>
                </div>
