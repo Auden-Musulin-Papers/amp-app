@@ -71,14 +71,6 @@
    <text>
       <body>
          <listEvent>
-            <event xml:id="amp-transcript__0048.xml"
-                   type="photos"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0237/">
-               <head xml:lang="en">
-                  <date>[?]</date>
-               </head>
-               <label xml:lang="en">Photograph Rudolf Blaha of Stella Musulin [?]</label>
-            </event>
             <event xml:id="amp-transcript__0053.xml"
                    type="additional-materials"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/">
@@ -95,13 +87,21 @@
                </head>
                <label xml:lang="en">Autograph Note Signed Michael O'Sullivan to Stella Musulin [?]</label>
             </event>
+            <event xml:id="amp-transcript__0048.xml"
+                   type="photos"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0237/">
+               <head xml:lang="en">
+                  <date>[?]</date>
+               </head>
+               <label xml:lang="en">Photograph Rudolf Blaha of Stella Musulin [?]</label>
+            </event>
             <event xml:id="e001" type="event">
                <head xml:lang="en">
                   <date notBefore="1915-07-16" notAfter="1915-07-16">1915-07-16</date>
                </head>
                <desc>
                   <title xml:lang="en">16 July 1915, Dale Castle, Pembrokeshire, Wales</title>
-                  Stella Mary Bellairs Lloyd-Philipps is born to Rhodri Vaughan Lloyd-Philipps (1874-1950) and his second wife, Margaret Colville 
+                  Stella Mary Bellairs Lloyd-Philipps is born to Rhodri Vaughan Lloyd-Philipps (1874-1950) and his second wife, Margery Colvile 
                   <location>
                      <geo>51.7075 -5.1774</geo>
                      <address>
@@ -113,6 +113,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/6285840</idno>
                </desc>
             </event>
             <event xml:id="e002" type="event">
@@ -133,6 +134,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/6941442</idno>
                </desc>
             </event>
             <event xml:id="e003" type="event">
@@ -140,12 +142,20 @@
                   <date notBefore="1948-01-11" notAfter="1948-01-11">1948-01-11</date>
                </head>
                <desc>
-                  <title xml:lang="en">11 January 1948</title>
+                  <title xml:lang="en">11 January 1948, Dale Castle, Pembrokeshire, Wales</title>
                   Birth of son Marko Musulin
                   <location>
-                     <geo/>
-                     <!-- research and add birth place! -->
+                     <geo>51.7075 -5.1774</geo>
+                     <address>
+                        <placeName>
+                           <settlement>Dale</settlement>
+                           <region>Pembrokeshire</region>
+                           <country>Wales</country>
+                           <country>United Kingdom</country>
+                        </placeName>
+                     </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/6285840</idno>
                </desc>
             </event>
             <event xml:id="e004" type="event">
@@ -165,31 +175,32 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/11704028</idno>
                </desc>
             </event>
             <event xml:id="amp-transcript__0046.xml"
                    type="additional-materials"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/">
                <head xml:lang="en">
-                  <date notBefore="1965-04-28" notAfter="1965-12-31">[1965]</date>
+                  <date notBefore="1965-04-28" notAfter="1965-12-31">1965-04-28--1965-12-31</date>
                </head>
-               <label xml:lang="en">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" [1965]</label>
+               <label xml:lang="en">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</label>
             </event>
             <event xml:id="amp-transcript__0047.xml"
                    type="additional-materials"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0143/">
                <head xml:lang="en">
-                  <date notBefore="1965-04-28" notAfter="1965-12-31">[1965]</date>
+                  <date notBefore="1965-04-28" notAfter="1965-12-31">1965-04-28--1965-12-31</date>
                </head>
-               <label xml:lang="en">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" [1965]</label>
+               <label xml:lang="en">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</label>
             </event>
             <event xml:id="amp-transcript__0029.xml"
                    type="additional-materials"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/">
                <head xml:lang="en">
-                  <date notBefore="1968-02-13" notAfter="1968-02-14">[1968-02-13]</date>
+                  <date notBefore="1968-02-13" notAfter="1968-02-14">1968-02-13--1968-02-14</date>
                </head>
-               <label xml:lang="en">Autograph Notes Stella Musulin [1968-02-13]</label>
+               <label xml:lang="en">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</label>
             </event>
             <event xml:id="e005" type="event">
                <head xml:lang="en">
@@ -208,6 +219,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/11704028</idno>
                </desc>
             </event>
             <event xml:id="amp-transcript__0051.xml"
@@ -217,14 +229,6 @@
                   <date notBefore="1970-05-19" notAfter="1970-06-10">1970-05-19--1970-06-10</date>
                </head>
                <label xml:lang="en">Typed Notes [Janko Musulin] on W. H. Auden "Freedom and Necessity in the Arts" 1970-05-19--1970-06-10</label>
-            </event>
-            <event xml:id="amp-transcript__0027.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0155/">
-               <head xml:lang="en">
-                  <date notBefore="1970-01-01" notAfter="1970-12-31">[1970]</date>
-               </head>
-               <label xml:lang="en">Typescript W. H. Auden "Freedom and Necessity in the Arts" [1970]</label>
             </event>
             <event xml:id="e006" type="event">
                <head xml:lang="en">
@@ -283,6 +287,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/2645801</idno>
                </desc>
             </event>
             <event xml:id="amp-transcript__0060.xml"
@@ -301,7 +306,7 @@
                </head>
                <label xml:lang="en">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</label>
             </event>
-            <event xml:id="e009" type="event">
+            <event xml:id="e0010" type="event">
                <head xml:lang="en">
                   <date notBefore="1977-05-05" notAfter="1977-05-05">1977-05-05</date>
                </head>
@@ -319,9 +324,19 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/2775259</idno>
                </desc>
             </event>
-            <event xml:id="e010" type="event">
+            <event xml:id="e009" type="event">
+               <head xml:lang="en">
+                  <date notBefore="1977-01-01" notAfter="1977-12-31">1977-01-01--1977-12-31</date>
+               </head>
+               <desc>
+                  <title xml:lang="en">1977, Vienna and Kirchstetten, Austria</title>
+                  The Internationale W. H. Auden-Gesellschaft [International W. H. Auden Society], based in Vienna and Kirchstetten, is founded by writer and journalist Karlheinz Roschitz and Peter Müller, press officer of the Federal Monuments Authority Austria. Among the committee members are Stella Musulin and Herta Staub, his translator. The honorary chairman is then Federal Chancellor Bruno Kreisky.
+               </desc>
+            </event>
+            <event xml:id="e011" type="event">
                <head xml:lang="en">
                   <date notBefore="1978-03-06" notAfter="1978-03-06">1978-03-06</date>
                </head>
@@ -339,6 +354,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/2779247</idno>
                </desc>
             </event>
             <event xml:id="amp-transcript__0033.xml"
@@ -365,6 +381,27 @@
                </head>
                <label xml:lang="en">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</label>
             </event>
+            <event xml:id="e012" type="event">
+               <head xml:lang="en">
+                  <date notBefore="1984-10-11" notAfter="1984-10-13">1984-10-11--1984-10-13</date>
+               </head>
+               <desc>
+                  <title xml:lang="en">11-13 October 1984, NÖART Galerie, Künstlerhaus Wien, Vienna</title>
+                  International symposium "W. H. Auden 1907-1973", hosted by the Niederösterreich-Gesellschaft für Kunst und Kultur [Lower Austrian Society for Art and Letters] in association with the International Auden Society and the British Council
+                  <location>
+                     <geo>48.200556 16.371667</geo>
+                     <address>
+                        <street>Karlsplatz 5</street>
+                        <postCode>1010</postCode>
+                        <placeName>
+                           <settlement>Vienna</settlement>
+                           <country>Austria</country>
+                        </placeName>
+                     </address>
+                  </location>
+                  <idno type="geonames">https://www.geonames.org/2775260</idno>
+               </desc>
+            </event>
             <event xml:id="amp-transcript__0030.xml"
                    type="additional-materials"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/">
@@ -385,11 +422,19 @@
                    type="memoirs"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0181/">
                <head xml:lang="en">
-                  <date notBefore="1985-11-29" notAfter="1990-03-13">[?]</date>
+                  <date notBefore="1985-11-29" notAfter="1990-03-13">1985-11-29--1990-03-13</date>
                </head>
-               <label xml:lang="en">Typescript Stella Musulin "In Retrospect" [?]</label>
+               <label xml:lang="en">Typescript Stella Musulin "In Retrospect" 1985-11-29--1990-03-13</label>
             </event>
-            <event xml:id="e011" type="event">
+            <event xml:id="amp-transcript__0027.xml"
+                   type="additional-materials"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0155/">
+               <head xml:lang="en">
+                  <date notBefore="1970-05-21" notAfter="1995-12-31">1970-05-21--1995-12-31</date>
+               </head>
+               <label xml:lang="en">Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1995-12-31</label>
+            </event>
+            <event xml:id="e013" type="event">
                <head xml:lang="en">
                   <date notBefore="1995-01-01" notAfter="1995-12-31">1995-01-01--1995-12-31</date>
                </head>
@@ -400,7 +445,7 @@
                      <geo>51.752 -1.2578</geo>
                   </location>--></desc>
             </event>
-            <event xml:id="e012" type="event">
+            <event xml:id="e014" type="event">
                <head xml:lang="en">
                   <date notBefore="1996-01-21" notAfter="1996-01-21">1996-01-21</date>
                   <!-- double-check! -->
@@ -419,6 +464,7 @@
                         </placeName>
                      </address>
                   </location>
+                  <idno type="geonames">https://www.geonames.org/2779247</idno>
                </desc>
             </event>
          </listEvent>
