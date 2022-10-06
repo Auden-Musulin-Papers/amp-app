@@ -206,15 +206,26 @@
                                  <li data-no="3.4">For manuscripts, the length of spaces between words is regularized and represented
                                     as either single space or no space.</li>
                                  
-                                 <li data-no="3.5">For typescripts, the exact number of spaces within sentences is preserved and marked
-                                    up as &lt;space&gt; in XML.</li>
+                                 <li data-no="3.5">For typescripts, the exact number of spaces within sentences is preserved (but not
+                                    before titles and page numbers) and marked up as &lt;space&gt; in XML.</li>
+                                 
+                                 <li data-no="3.6">Blank lines between lines of writing are disregarded.</li>
                                  </ol>
                               </li>
                            </ol>
                         
                         <ol class="numbered">
                            
-                           <li data-no="4">Original line breaks and divisions between blocks of text are retained.</li>                           
+                           <li data-no="4">Page Layout
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="4.1">Original line breaks and sections of text are retained.</li>
+                                 
+                                 <li data-no="4.2">The transcription of each document is contained within a TEI &lt;div&gt; element. Each transcription
+                                    is subdivided by means of &lt;pb&gt; and &lt;p&gt; elements.</li>
+                                 </ol>
+                              </li>   
                            </ol>
                         
                         <ol class="numbered">
@@ -224,7 +235,7 @@
                               <ol class="numbered">
                                  
                                  <li data-no="5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and can be graphically represented
-                                    on the web page.</li>
+                                    on the web page. By default, they are represented in italics on the web page.</li>
                                  
                                  <li data-no="5.2">Underlines are not represented if they form part of signatures.</li>
                                  
