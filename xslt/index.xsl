@@ -65,9 +65,9 @@
                     </div>
                     -->
                     
-                    <div class="container-fluid" style="background-color:#fff;max-width:100%;">
+                    <div class="container-fluid" style="background-position:bottom;background-color:rgba(240,240,240,0.3);max-width:100%;background-image:url('images/christmas_bg_1920.jpg')">
                         <div class="row" style="margin:auto;max-width:80%;padding:2em;">
-                            <div class="col col-md-8">
+                            <div class="col col-md-8" style="background-color:rgba(240,240,240, 0.5);padding:1em;border-radius:.25rem;">
                                 <div class="main-title">
                                     <h1 style="color:#615a60;padding:.5em 0;">Auden Musulin Papers</h1>
                                     <h2 style="color:#615a60;">A Digital Edition of W. H. Auden's Letters to Stella Musulin</h2>
@@ -232,6 +232,10 @@
                                 </div>
                             </div>
                         </div>-->
+                        <p style="font-size:8px;">
+                            Logo Christmas Border Image by <a href="https://pixabay.com/users/ladymarisa-8278827/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5783729">Мариса</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5783729">Pixabay</a><br/>
+                            <a href="https://www.freepik.com/free-vector/christmas-background_1368140.htm#query=christmas%20background">Background Image by kjpargeter</a> on Freepik
+                        </p>
                     </div>
                     <div class="container-fluid" id="wrapper-content-amp">
                         <div class="row">

@@ -9,12 +9,12 @@
         <xsl:param name="site_title">
             Auden Musulin Papers
         </xsl:param>
-        <div class="wrapper-fluid wrapper-navbar sticky-navbar hide-reading" id="wrapper-navbar" >
+        <div class="wrapper-fluid wrapper-navbar sticky-navbar hide-reading" id="wrapper-navbar">
             <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/Auden_Musulin_Papers_Logo_rechteckig_web.png" class="img-fluid" title="Auden Musulin Papers Logo" alt="Auden Musulin Papers Logo" itemprop="logo" /></a><!-- end custom logo -->
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/Auden_Musulin_Papers_Logo_rechteckig_web_christmas.png" class="img-fluid" title="Auden Musulin Papers Logo" alt="Auden Musulin Papers Logo" itemprop="logo" /></a><!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$site_title}" itemprop="url"><!--<xsl:value-of select="$site_title"/>--></a>
                     <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
