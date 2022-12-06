@@ -65,7 +65,7 @@
                     </div>
                     -->
                     
-                    <div class="container-fluid" style="background-position:bottom;background-color:rgba(240,240,240,0.3);max-width:100%;background-image:url('images/christmas_bg_1920.jpg')">
+                    <div class="container-fluid" style="padding:2em;background-position:bottom;background-color:rgba(240,240,240,0.3);max-width:100%;background-image:url('images/christmas_bg_full.jpg')">
                         <div class="row" style="margin:auto;max-width:80%;padding:2em;">
                             <div class="col col-md-8" style="background-color:rgba(240,240,240, 0.5);padding:1em;border-radius:.25rem;">
                                 <div class="main-title">
