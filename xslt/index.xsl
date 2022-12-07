@@ -19,11 +19,29 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
+                <link rel="stylesheet" type="text/css" href="css/snowflake.css"></link>
             </head>
             
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
+                    <div class="snowfall">
+                        <xsl:for-each select="//tei:TEI//tei:*">
+                            <div class="snowflake"></div>
+                        </xsl:for-each>
+                        <xsl:for-each select="//tei:TEI//tei:*">
+                            <div class="snowflake"></div>
+                        </xsl:for-each>
+                        <xsl:for-each select="//tei:TEI//tei:*">
+                            <div class="snowflake"></div>
+                        </xsl:for-each>   
+                        <xsl:for-each select="//tei:TEI//tei:*">
+                            <div class="snowflake"></div>
+                        </xsl:for-each>
+                        <xsl:for-each select="//tei:TEI//tei:*">
+                            <div class="snowflake"></div>
+                        </xsl:for-each> 
+                    </div>
                     <!--
                     <div class="wrapper" id="wrapper-hero-content" style="background-image:url(https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0033.jpg?format=iiif)">
                         
