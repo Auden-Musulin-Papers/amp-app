@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Editorial Declaration" />
+      <meta name="apple-mobile-web-app-title" content="Documentation" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <link rel="shortcut icon" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_96.png" sizes="96x70" />
       <link rel="icon" type="image/png" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_32.png" sizes="32x23" />
@@ -13,7 +13,7 @@
       <link rel="apple-touch-icon" sizes="180x180" href="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_180.png" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="images/Auden_Musulin_Papers_Logo_rechteckig_favicon_144.png" />
-      <title>Editorial Declaration</title>
+      <title>Documentation</title>
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
@@ -73,7 +73,7 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Editorial Declaration</h1>
+                  <h1>Documentation</h1>
                </div>
                <div class="card-body">
                   <div class="col-md-12">
@@ -169,7 +169,8 @@
                                  <li data-no="1.5">Characters that cannot be transcribed are marked up as &lt;gap&gt; in XML and represented
                                     by means of square brackets on the web page.</li>
                                  
-                                 <li data-no="1.6">Superscripts have not yet been marked up and are not represented on the web page.</li>
+                                 <li data-no="1.6">Superscripts in the original documents have not yet been marked up and are not represented
+                                    on the web page.</li>
                                  </ol>
                               </li>                          
                            </ol>
@@ -209,7 +210,9 @@
                                  <li data-no="3.5">For typescripts, the exact number of spaces within sentences is preserved (but not
                                     before titles and page numbers) and marked up as &lt;space&gt; in XML.</li>
                                  
-                                 <li data-no="3.6">Blank lines between lines of writing are disregarded.</li>
+                                 <li data-no="3.6">Spaces that precede printed text are disregarded.</li>
+                                 
+                                 <li data-no="3.7">Blank lines between lines of writing are disregarded.</li>
                                  </ol>
                               </li>
                            </ol>
@@ -223,7 +226,13 @@
                                  <li data-no="4.1">Original line breaks and sections of text are retained.</li>
                                  
                                  <li data-no="4.2">The transcription of each document is contained within a TEI &lt;div&gt; element. Each transcription
-                                    is subdivided by means of &lt;pb&gt; and &lt;p&gt; elements.</li>
+                                    is subdivided by means of &lt;pb&gt;, &lt;p&gt; and &lt;lg&gt; elements.</li>
+                                 
+                                 <li data-no="4.3">The vertical succession of text elements is represented; their horizontal arrangement
+                                    is disregarded.</li>
+                                 
+                                 <li data-no="4.4">Line numbers are added to the website display, with separate numbering systems for
+                                    prose and verse, respectively.</li>
                                  </ol>
                               </li>   
                            </ol>
@@ -234,8 +243,9 @@
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and can be graphically represented
-                                    on the web page. By default, they are represented in italics on the web page.</li>
+                                 <li data-no="5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and can optionally be graphically
+                                    represented on the web page. By default, they are represented in italics on the web
+                                    page.</li>
                                  
                                  <li data-no="5.2">Underlines are not represented if they form part of signatures.</li>
                                  
@@ -269,20 +279,23 @@
                                     the use of the typed signs 'x', 'm', 'z', 'y', '-', and '/' as indicating deletions
                                     where such deletion seems plausible.</li>
                                  
-                                 <li data-no="7.4">When additions are inserted into manuscripts or typescripts, surrounding spaces are
+                                 <li data-no="7.4">Additions have not yet been marked up and are not represented on the website, but
+                                    are treated as part of the original documents.</li>
+                                 
+                                 <li data-no="7.5">When additions are inserted into manuscripts or typescripts, surrounding spaces are
                                     included in ways that are coherent with the general use of spaces in the respective
                                     texts.</li>
                                  
-                                 <li data-no="7.5">When additions replace deleted words in typescripts, they are inserted directly after
+                                 <li data-no="7.6">When additions replace deleted words in typescripts, they are inserted directly after
                                     the deletions without additional spaces in between.</li>
                                  
-                                 <li data-no="7.6">When it is uncertain whether characters have been deleted, the passage in question
+                                 <li data-no="7.7">When it is uncertain whether characters have been deleted, the passage in question
                                     is marked up as &lt;unclear&gt;&lt;del&gt;&lt;gap reason="deleted"/&gt;&lt;del/&gt;&lt;unclear/&gt;.</li>
                                  
-                                 <li data-no="7.7">For typescripts by Musulin, we accept handwritten underlines of deleted passages as
+                                 <li data-no="7.8">For typescripts by Musulin, we accept handwritten underlines of deleted passages as
                                     cancelled deletions.</li>
                                  
-                                 <li data-no="7.8">Multiple overwritings in the same place of a typescript (when character 'x' is overwritten
+                                 <li data-no="7.9">Multiple overwritings in the same place of a typescript (when character 'x' is overwritten
                                     by character 'y', which, in turn, is overwritten by 'z') are represented as nested
                                     deletions: '&lt;del&gt;&lt;del&gt;x&lt;/del&gt;y&lt;/del&gt;z'</li>
                                  </ol>
@@ -299,19 +312,48 @@
                                  
                                  <li data-no="8.2">Image captions in postcards are transcribed.</li>
                                  
-                                 <li data-no="8.3">Postmarks and stamps are not transcribed.</li>
+                                 <li data-no="8.3">Postmarks and stamps are not transcribed in the &lt;text&gt; part. Place and date information
+                                    have been extracted and included in the &lt;correspDesc&gt; section of the &lt;teiHeader&gt;.</li>
                                  
                                  <li data-no="8.4">Pre-printed postal texts and images in telegrams and aerograms are not rendered in
                                     the transcriptions.</li>
+                                 
+                                 <li data-no="8.5">Watermarks have not yet been transcribed.</li>
                                  </ol>
                               </li>                           
                            </ol>
                         
                         <ol class="numbered">
                            
-                           <li data-no="9">Writing technologies (handwriting, typewriting) are marked up by means of the &lt;...
-                              hand="..."&gt; attribute in XML and are represented through different fonts on the web
-                              page.</li>
+                           <li data-no="9">Writing technologies
+                              
+                              <li data-no="9.1">Writing technologies (handwriting, typewriting, print) are marked up by means of the
+                                 &lt;... hand="..."&gt; attribute in XML and are represented through different fonts on the
+                                 web page.</li>
+                              
+                              <li data-no="9.2">The &lt;handShift&gt; element indicates an immediate change of writing technologies.</li>
+                              </li>
+                           </ol>
+                        
+                        <ol class="numbered">       
+                           
+                           <li data-no="10">Photographs  
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="10.1">All texts pertaining to the photograph documents are transcribed.</li>
+                                 
+                                 <li data-no="10.2">Persons depicted in the photographs or referred to in the accompanying texts are recorded
+                                    in the &lt;particDesc&gt; section of the &lt;teiHeader&gt;.</li>
+                                 </ol>
+                              </li>
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="11">Extra-textual entities (persons, places, organizations, literary works, and events)
+                              are marked up in XML by means of &lt;rs&gt; and can optionally be displayed on the website,
+                              where they are enriched with additional information and norm-data identifiers.</li>
                            </ol>
                         </div>
                   </div>
