@@ -74,9 +74,9 @@
                         
                         <h3>Presentation of the Material</h3>
                         
-                        <p>By default, the edited documents are presented in accordance with the conventions
-                           followed in <span class="italics">The Complete Works of W. H. Auden</span> (1993-2022), edited by Edward Mendelson. Optionally, original text features, such
-                           as deletions, can be displayed, and users can modify presentation preferences.</p>                   
+                        <p>By default, the edited documents are presented in the form of a reading version with
+                           minor editing. Optionally, original text features, such as deletions, can be displayed,
+                           and users can modify presentation preferences.</p>                   
                         
                         <ul class="bulleted">
                            
@@ -100,7 +100,9 @@
                                  
                                  <li data-no="">indications of undecipherable characters (if not deleted)</li>
                                  
-                                 <li data-no="">facsimiles displayed through a plugin viewer, with controls to adjust image size</li>
+                                 <li data-no="">detailed editorial metadata</li>
+                                 
+                                 <li data-no="">correspondence metadata</li>
                                  </ul>
                               </li>                          
                            </ul>
@@ -114,15 +116,18 @@
                                  
                                  <li data-no="">original text features: deletions, underlines, additional typographic whitespace</li>
                                  
-                                 <li data-no="">indications of unclear characters, which cannot be transcribed with certainty</li>
+                                 <li data-no="">indications of unclear characters which cannot be transcribed with certainty</li>
                                  
                                  <li data-no="">labeling of entities (persons, places, institutions, works, events)</li>
                                  
+                                 <li data-no="">editorial commentary, including information about responsibility and uncertainty (in
+                                    development)</li>
+                                 
                                  <li data-no="">choice of fonts and font sizes</li>
                                  
-                                 <li data-no="">full-screen view</li>
+                                 <li data-no="">facsimiles displayed through a plugin viewer, with controls to adjust image size</li>
                                  
-                                 <li data-no="">text-focus view without facsimile</li>
+                                 <li data-no="">full-screen view</li>
                                  </ul>
                               </li>                          
                            </ul>
@@ -132,26 +137,28 @@
                         
                         <p>The documents have been reproduced at 600 dpi and 24 bit/RGB through an Image Access
                            WideTEK®25 color flatbed scanner and saved in an uncompressed TIFF format. Selected
-                           materials (images 5 and 6 in https://amp.acdh.oeaw.ac.at/amp-transcript__0039.html,
-                           images 3 and 4 in https://amp.acdh.oeaw.ac.at/amp-transcript__0040.html) have been
-                           digitized at 603.1 dpi and 24 bit by means of a Phase One XF IQ3 100MP medium-format
-                           camera with a Schneider Kreuznach 80mm f/2.8 leaf shutter lens. The high-resolution
-                           digital reproductions can be accessed via https://id.acdh.oeaw.ac.at/auden-musulin-papers/facs.
+                           materials (images 5 and 7 in https://amp.acdh.oeaw.ac.at/amp-transcript__0039.html,
+                           images 3 and 5 in https://amp.acdh.oeaw.ac.at/amp-transcript__0040.html, as well as
+                           all photographs) have been digitized at 603.1 dpi and 24 bit by means of a Phase One
+                           XF IQ3 100MP medium-format camera with a Schneider Kreuznach 80mm f/2.8 leaf shutter
+                           lens. The high-resolution digital reproductions can be accessed via https://id.acdh.oeaw.ac.at/auden-musulin-papers/facs.
                            On the website, images are provided through IIIF.</p>
                         
                         <p>The images of Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23
                            have been created by the Literary Archive of the Austrian National Library.</p>
                         
+                        <p>In collaboration with the Computer Vision Lab of TU Wien, the surface of selected
+                           source documents (images 6 and 8 in https://amp.acdh.oeaw.ac.at/amp-transcript__0039.html,
+                           images 4 and 6 in https://amp.acdh.oeaw.ac.at/amp-transcript__0040.html) has been
+                           visualized by means of Photometric Stereo, using a PhaseOne IQ260 Achromatic with
+                           an 8,964 × 6,716 pixel medium-format sensor and a Schneider-Kreuznach 120 mm LS Macro
+                           lens (see https://amp.acdh.oeaw.ac.at/cv.html).</p>
                         
-                        <h3>Disclaimer v0.3</h3>
                         
-                        <p>The facsimile view is not yet optimized for the mobile version of the web application.</p>
+                        <h3>Transcription and Markup Guidelines of v0.5.0</h3>
                         
-                        
-                        <h3>Transcription and Markup Guidelines of v0.3</h3>
-                        
-                        <p>Source transcriptions as encoded in TEI/XML represent the spelling, punctuation, and
-                           revisions as they appear, aiming for minimal editorial intervention or interpretation.</p>                   
+                        <p>Source transcriptions as encoded in TEI/XML represent the spelling, punctuation, and,
+                           partly, revisions as they appear, aiming for minimal editorial intervention or interpretation.</p>                   
                         
                         <ol class="numbered">
                            
@@ -162,19 +169,19 @@
                                  
                                  <li data-no="1.1">The original spelling in both manuscripts and typescripts is retained, even if irregular.</li>
                                  
-                                 <li data-no="1.2">Characters that cannot be transcribed with certainty are marked up as &lt;unclear&gt; in
-                                    XML and can be highlighted in grey on the web page.</li>
+                                 <li data-no="1.2">Characters that cannot be transcribed with certainty (for whichever reason) are marked
+                                    up as &lt;unclear&gt; in XML and can be highlighted in grey on the web page.</li>
                                  
                                  <li data-no="1.3">Handwritten characters are not marked up as &lt;unclear&gt; in XML when they can be identified
                                     as a consistent and typical feature of the respective author's handwriting.</li>
                                  
-                                 <li data-no="1.4">Signatures are not marked up as &lt;unclear&gt;.</li>
+                                 <li data-no="1.4">Signatures are never marked up as &lt;unclear&gt;.</li>
                                  
                                  <li data-no="1.5">Characters that cannot be transcribed are marked up as &lt;gap&gt; in XML and represented
                                     by means of square brackets on the web page.</li>
                                  
-                                 <li data-no="1.6">Superscripts in the original documents have not yet been marked up and are not represented
-                                    on the web page.</li>
+                                 <li data-no="1.6">Superscripts in the original documents have not yet been marked up and are represented
+                                    in standard script on the web page.</li>
                                  </ol>
                               </li>                          
                            </ol>
@@ -211,16 +218,21 @@
                                  <li data-no="3.4">For manuscripts, the length of spaces between words is regularized and represented
                                     as either single space or no space.</li>
                                  
-                                 <li data-no="3.5">For typescripts, the exact number of spaces within sentences is preserved and marked
-                                    up as &lt;space&gt; in XML.</li>
+                                 <li data-no="3.5">For typescripts, the exact number of spaces before and within sentences is preserved
+                                    and marked up as &lt;space&gt; in TEI/XML. For spaces in two-column layout pages, most likely
+                                    generated by means of the tab function or by resetting the typewriter's margin stop,
+                                    approximative values of spaces have been indicated.</li>
                                  
-                                 <li data-no="3.6">Changes in the left-hand margins of typescripts are not marked up as indentations
-                                    (by means of &lt;space&gt;) if they appear to result from reinsertations of the sheets of
+                                 <li data-no="3.6">Indentations of typed lines (of poetry) without reference value in relation to the
+                                    left-hand margin are marked up as &lt;space extent="undefined quantity of characters"&gt;.</li>
+                                 
+                                 <li data-no="3.7">Changes in the left-hand margins of typescripts are not marked up as indentations
+                                    (by means of &lt;space&gt;) if they appear to result from reinsertions of the sheets of
                                     paper or resets of margins on the typewriter that do not appear meaningful.</li>
                                  
-                                 <li data-no="3.7">Spaces that precede printed text are disregarded.</li>
+                                 <li data-no="3.8">Spaces that precede printed text have so far been disregarded.</li>
                                  
-                                 <li data-no="3.8">Blank lines between lines of writing are disregarded.</li>
+                                 <li data-no="3.9">Blank lines between lines of writing are disregarded.</li>
                                  </ol>
                               </li>
                            </ol>
@@ -231,16 +243,31 @@
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="4.1">Original line breaks and sections of text are retained.</li>
+                                 <li data-no="4.1">Original line breaks are retained by means of &lt;lb&gt; within structural elements of text,
+                                    but not in between block-level elements (such as in between &lt;p&gt;, &lt;salute&gt;, or &lt;signed&gt;
+                                    elements). Within structural elements, the TEI &lt;lb&gt; element represents standard line
+                                    spacing (most likely produced by operating the typewriter's carriage-return lever);
+                                    in between elements, spacing (possibly produced by means of operating the typewriter's
+                                    variable line spacing knob) can vary, which is not represented in the markup.</li>
                                  
-                                 <li data-no="4.2">The transcription of each document is contained within a TEI &lt;div&gt; element. Each transcription
-                                    is subdivided by means of &lt;pb&gt;, &lt;p&gt; and &lt;lg&gt; elements, as well as &lt;cb&gt; if applicable.</li>
+                                 <li data-no="4.2">For non-correspondence documents as well as for telegrams, aerograms, and postcards,
+                                    a non-specific container structure is currently used: the transcription of each document
+                                    is contained within a TEI &lt;div&gt; element; each transcription is subdivided by means
+                                    of &lt;pb&gt;, &lt;p&gt;, and &lt;lg&gt; elements.</li>
                                  
-                                 <li data-no="4.3">The vertical succession of text elements is represented; their horizontal arrangement
-                                    is disregarded.</li>
+                                 <li data-no="4.3">For correspondence documents, excluding telegrams, aerograms, and postcards, a specific
+                                    and semantically more expressive TEI-conformant container structure is used. The most
+                                    important structural elements are the following: &lt;div type="transcription"&gt; can contain
+                                    &lt;div type="envelope"&gt; and &lt;div type="letter"&gt;; &lt;div type="letter"&gt; can include &lt;div
+                                    type="letter_message"&gt; and &lt;div type="poem"&gt;; &lt;div type="letter_message"&gt; can contain
+                                    &lt;opener&gt; and &lt;closer&gt; containers; &lt;opener&gt; groups together dateline and salutation
+                                    information from the start of the correspondence item; &lt;closer&gt; groups together salutation
+                                    and signature information from the end of the correspondence item; &lt;div type="poem"&gt;
+                                    can be further structured through the &lt;cb&gt; milestone element and can contain &lt;head&gt;
+                                    and &lt;lg&gt; elements; &lt;lg&gt; nodes include &lt;space&gt; and &lt;l&gt; elements.</li>
                                  
-                                 <li data-no="4.4">Line numbers are added to the website display, with separate numbering systems for
-                                    prose and verse, respectively.</li>
+                                 <li data-no="4.4">The vertical succession of text elements is represented; their horizontal arrangement
+                                    has so far been disregarded.</li>
                                  </ol>
                               </li>   
                            </ol>
@@ -252,8 +279,8 @@
                               <ol class="numbered">
                                  
                                  <li data-no="5.1">Underlines are marked up as &lt;hi rend="underline"&gt; and can optionally be graphically
-                                    represented on the web page. By default, they are represented in italics on the web
-                                    page.</li>
+                                    represented on the web page (highlighted in lilac). By default, they are represented
+                                    in italics on the web page.</li>
                                  
                                  <li data-no="5.2">Underlines are not represented if they form part of signatures.</li>
                                  
@@ -266,95 +293,103 @@
                         
                         <ol class="numbered">
                            
-                           <li data-no="6">Characters whose legibility is impaired by smudges and overwritings are marked up
-                              as &lt;unclear&gt; in XML and can be represented in grey on the web page.</li>
-                           </ol>   
-                        
-                        <ol class="numbered">
-                           
-                           <li data-no="7">Revisions
+                           <li data-no="6">Revisions
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="7.1">Deletions of text are marked up as &lt;del&gt; in XML and can be represented on the web
-                                    page.</li>
+                                 <li data-no="6.1">Deletions of text are marked up as &lt;del&gt; in XML and can be represented on the web
+                                    page (highlighted in peach).</li>
                                  
-                                 <li data-no="7.2">For revisions in manuscripts and typescripts, we have accepted the orthographically
+                                 <li data-no="6.2">For revisions in manuscripts and typescripts, we have accepted the orthographically
                                     or grammatically accurate versions as corrections, even if the actual sequences of
                                     textual layers cannot be reconstructed.</li>
                                  
-                                 <li data-no="7.3">For transcriptions of typescripts - in addition to handwritten deletions - we accept
+                                 <li data-no="6.3">For transcriptions of typescripts - in addition to handwritten deletions - we accept
                                     the use of the typed signs 'x', 'm', 'z', 'y', '-', and '/' as indicating deletions
                                     where such deletion seems plausible.</li>
                                  
-                                 <li data-no="7.4">Additions have not yet been marked up and are not represented on the website, but
-                                    are treated as part of the original documents.</li>
+                                 <li data-no="6.4">Additions have not yet been marked up and are not represented as additions on the
+                                    website, but are treated as part of the original documents.</li>
                                  
-                                 <li data-no="7.5">When additions are inserted into manuscripts or typescripts, surrounding spaces are
+                                 <li data-no="6.5">When additions are inserted into manuscripts or typescripts, surrounding spaces are
                                     included in ways that are coherent with the general use of spaces in the respective
                                     texts.</li>
                                  
-                                 <li data-no="7.6">When additions replace deleted words in typescripts, they are inserted directly after
+                                 <li data-no="6.6">When additions replace deleted words in typescripts, they are inserted directly after
                                     the deletions without additional spaces in between.</li>
                                  
-                                 <li data-no="7.7">When it is uncertain whether characters have been deleted, the passage in question
-                                    is marked up as &lt;unclear&gt;&lt;del&gt;&lt;gap reason="deleted"/&gt;&lt;del/&gt;&lt;unclear/&gt;.</li>
+                                 <li data-no="6.7">When it is uncertain whether characters have been deleted, the passage in question
+                                    is marked up as '&lt;unclear&gt;&lt;del&gt;[...]&lt;del/&gt;&lt;unclear/&gt;'.</li>
                                  
-                                 <li data-no="7.8">For typescripts by Musulin, we accept handwritten underlines of deleted passages as
-                                    cancelled deletions.</li>
+                                 <li data-no="6.8">For typescripts by Stella Musulin, we accept handwritten underlines of deleted passages
+                                    as cancelled deletions.</li>
                                  
-                                 <li data-no="7.9">Multiple overwritings in the same place of a typescript (when character 'x' is overwritten
-                                    by character 'y', which, in turn, is overwritten by 'z') are represented as nested
-                                    deletions: '&lt;del&gt;&lt;del&gt;x&lt;/del&gt;y&lt;/del&gt;z'</li>
+                                 <li data-no="6.9">Multiple overwritings in the same place of a typescript (for instance, when character
+                                    'x' is overwritten by character 'y', which, in turn, is overwritten by 'z') are represented
+                                    as nested deletions: '&lt;del&gt;&lt;del&gt;x&lt;/del&gt;y&lt;/del&gt;z'</li>
                                  </ol>
                               </li>                             
                            </ol>
                         
                         <ol class="numbered">
                            
-                           <li data-no="8">Pre-printed Components and Postal Additions
+                           <li data-no="7">Pre-printed Components and Postal Additions
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="8.1">Pre-printed letter heads and sender addresses are transcribed.</li>
+                                 <li data-no="7.1">Pre-printed letter heads and sender addresses are transcribed.</li>
                                  
-                                 <li data-no="8.2">Image captions in postcards are transcribed.</li>
+                                 <li data-no="7.2">Image captions and company information in postcards are transcribed.</li>
                                  
-                                 <li data-no="8.3">Postmarks and stamps are not transcribed in the &lt;text&gt; part. Place and date information
-                                    have been extracted and included in the &lt;correspDesc&gt; section of the &lt;teiHeader&gt;.</li>
+                                 <li data-no="7.3">Postmarks and stamps are not transcribed in the &lt;text&gt; part. Organization (e.g., post
+                                    office), place, date, and time (captured in terms of @notBefore-iso and @notAfter-iso)
+                                    information has been extracted and included in the &lt;correspDesc&gt; section of the &lt;teiHeader&gt;.
+                                    In accordance with the TEI P5 Guidelines, the individual stages in the correspondence
+                                    process are marked up as &lt;correspAction&gt;. The following values of the @type attribute
+                                    are used: "sent" for information that refers to the first processing of the correspondence
+                                    item by the outgoing post office as retrieved from the postmark on the front of the
+                                    envelope; "transmitted" for information on the further processing of the correspondence
+                                    item by the incoming post office(s) as retrieved from the backstamp(s); "redirected"
+                                    for information on the place (as well as, if applicable, on the person or organization)
+                                    related to redirecting the unopened correspondence item to another destination; "received"
+                                    for information on the person (and, if applicable, place) related to the last indicated
+                                    destination on the front of the envelope. Information on the place and date of writing
+                                    is encoded within the &lt;fileDesc&gt; node of the &lt;teiHeader&gt;. Where no envelope has been
+                                    preserved, only the &lt;correspAction&gt; of @type "received" is documented. Copies of correspondence
+                                    items are not treated as correspondence items and no &lt;correspDesc&gt; has been recorded.</li>
                                  
-                                 <li data-no="8.4">Pre-printed postal texts and images in telegrams and aerograms are not rendered in
-                                    the transcriptions.</li>
+                                 <li data-no="7.4">Pre-printed postal texts and images in telegrams and aerograms are currently not rendered
+                                    in the transcriptions.</li>
                                  
-                                 <li data-no="8.5">Watermarks have not yet been transcribed.</li>
+                                 <li data-no="7.5">Watermarks have not yet been transcribed.</li>
                                  </ol>
                               </li>                           
                            </ol>
                         
                         <ol class="numbered">
                            
-                           <li data-no="9">Writing technologies
+                           <li data-no="8">Writing technologies
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="9.1">Writing technologies (handwriting, typewriting, print) are marked up by means of the
-                                    &lt;... hand="..."&gt; attribute in XML and are represented through different fonts on the
-                                    web page.</li>
+                                 <li data-no="8.1">Writing technologies (handwriting, typewriting, print) are marked up by means of the
+                                    @hand attribute in XML and are represented through different fonts on the web page.</li>
                                  
-                                 <li data-no="9.2">The &lt;handShift&gt; element indicates an immediate change of writing technologies.</li>
+                                 <li data-no="8.2">The &lt;handShift&gt; element indicates an immediate change of writing technologies within
+                                    a segment of transcription.</li>
                                  </ol>
                               </li>
                            </ol>
                         
                         <ol class="numbered">       
                            
-                           <li data-no="10">Photographs  
+                           <li data-no="9">Photographs  
                               
                               <ol class="numbered">
                                  
-                                 <li data-no="10.1">All texts pertaining to the photograph documents are transcribed.</li>
+                                 <li data-no="9.1">All texts pertaining to the photograph documents are transcribed.</li>
                                  
-                                 <li data-no="10.2">Persons depicted in the photographs or referred to in the accompanying texts are recorded
+                                 <li data-no="9.2">Persons depicted in the photographs or referred to in the accompanying texts are recorded
                                     in the &lt;particDesc&gt; section of the &lt;teiHeader&gt;.</li>
                                  </ol>
                               </li>
@@ -362,9 +397,33 @@
                         
                         <ol class="numbered">
                            
-                           <li data-no="11">Extra-textual entities (persons, places, organizations, literary works, and events)
-                              are marked up in XML by means of &lt;rs&gt; and can optionally be displayed on the website,
-                              where they are enriched with additional information and norm-data identifiers.</li>
+                           <li data-no="10">Markup of contents
+                              
+                              <ol class="numbered">
+                                 
+                                 <li data-no="10.1">Extra-textual entities (persons, places, organizations, literary works, and events)
+                                    are marked up in XML by means of &lt;rs&gt; and can optionally be displayed on the website,
+                                    where they are enriched with additional information and norm-data identifiers.</li>
+                                 
+                                 <li data-no="10.2">Editorial comments are marked up in XML within the &lt;interpGrp&gt; element of the &lt;teiHeader&gt;.
+                                    The respective elements within the textual data or metadata to which the editorial
+                                    interpretations refer are linked to these via the @ana attribute. The &lt;desc&gt; element
+                                    within each &lt;interp&gt; node contains a human-readable comment; furthermore, TEI elements
+                                    have been used to formalize that comment in a machine-readable format (in development).</li>
+                                 </ol>
+                              </li>
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="11">Language information is encoded in XML by means of the @xml:lang attribute (in development).</li>
+                           </ol>
+                        
+                        <ol class="numbered">
+                           
+                           <li data-no="12">In the &lt;teiHeader&gt; section, metadata related to the source material are encoded within
+                              the &lt;sourceDesc&gt; node; edition metadata are represented in the &lt;publicationStmt&gt;,
+                              &lt;editionStmt&gt;, and &lt;titleStmt&gt; nodes.</li>
                            </ol>
                         </div>
                   </div>
@@ -410,7 +469,7 @@
                               </div>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 py-2">
-                              <div class="flex-md-row mb-4 align-items-center" style="margin-bottom:.5em!important;"><a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/Logo-D/FWF_Logo_Zusatz_Dunkelblau_RGB_DE.png" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 250px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a></div>
+                              <div class="flex-md-row mb-4 align-items-center" style="margin-bottom:.5em!important;"><a href="https://www.fwf.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/Website/Logos/FWF_Logo.png" alt="FWF Der Wissenschaftsfond Logo" style="max-width: 250px; height: auto; margin-top:1em;" title="FWF Der Wissenschaftsfond" /></a></div>
                            </div>
                            <div class="col-lg-12 col-md-12 col-sm-12 py-2">
                               <div class="flex-md-row mb-4 align-items-center" style="margin-bottom:.5em!important; margin-left: -1em;"><a href="https://www.univie.ac.at/en/"><img class="card-img-right flex-auto d-md-block" src="https://communications.univie.ac.at/fileadmin/user_upload/d_oeffentlichkeitsarbeit/Logos/2016-02/Uni_Logo_2016.jpg" alt="Universität Wien Logo" style="max-width: 250px; height: auto; vertical-align: middle;" title="Universität Wien" /></a></div>
