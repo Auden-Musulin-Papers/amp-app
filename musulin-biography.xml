@@ -10,7 +10,7 @@
             <author>
                <name>Mayer, Sandra</name>
                <name>Frühwirth, Timo</name>
-               <name>Stoxreiter, Daniel</name>
+               <name>Elsner, Daniel</name>
             </author>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -71,30 +71,6 @@
    <text>
       <body>
          <listEvent>
-            <event xml:id="amp-transcript__0053.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/">
-               <head xml:lang="en">
-                  <date>[1969]-05-29</date>
-               </head>
-               <label xml:lang="en">Typed Letter Stella Musulin to [Edith Silbermann] [1969]-05-29</label>
-            </event>
-            <event xml:id="amp-transcript__0037.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/">
-               <head xml:lang="en">
-                  <date>[?]</date>
-               </head>
-               <label xml:lang="en">Autograph Note Signed Michael O'Sullivan to Stella Musulin [?]</label>
-            </event>
-            <event xml:id="amp-transcript__0048.xml"
-                   type="photos"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0237/">
-               <head xml:lang="en">
-                  <date>[?]</date>
-               </head>
-               <label xml:lang="en">Photograph Rudolf Blaha of Stella Musulin [?]</label>
-            </event>
             <event xml:id="e001" type="event">
                <head xml:lang="en">
                   <date notBefore="1915-07-16" notAfter="1915-07-16">1915-07-16</date>
@@ -178,30 +154,6 @@
                   <idno type="geonames">https://www.geonames.org/11704028</idno>
                </desc>
             </event>
-            <event xml:id="amp-transcript__0046.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/">
-               <head xml:lang="en">
-                  <date notBefore="1965-04-28" notAfter="1965-12-31">1965-04-28--1965-12-31</date>
-               </head>
-               <label xml:lang="en">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</label>
-            </event>
-            <event xml:id="amp-transcript__0047.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0143/">
-               <head xml:lang="en">
-                  <date notBefore="1965-04-28" notAfter="1965-12-31">1965-04-28--1965-12-31</date>
-               </head>
-               <label xml:lang="en">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</label>
-            </event>
-            <event xml:id="amp-transcript__0029.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/">
-               <head xml:lang="en">
-                  <date notBefore="1968-02-13" notAfter="1968-02-14">1968-02-13--1968-02-14</date>
-               </head>
-               <label xml:lang="en">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</label>
-            </event>
             <event xml:id="e005" type="event">
                <head xml:lang="en">
                   <date notBefore="1969-05-28" notAfter="1969-05-28">1969-05-28</date>
@@ -222,14 +174,6 @@
                   <idno type="geonames">https://www.geonames.org/11704028</idno>
                </desc>
             </event>
-            <event xml:id="amp-transcript__0051.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0165/">
-               <head xml:lang="en">
-                  <date notBefore="1970-05-19" notAfter="1970-06-10">1970-05-19--1970-06-10</date>
-               </head>
-               <label xml:lang="en">Typed Notes [Janko Musulin] on W. H. Auden "Freedom and Necessity in the Arts" 1970-05-19--1970-06-10</label>
-            </event>
             <event xml:id="e006" type="event">
                <head xml:lang="en">
                   <date notBefore="1971-01-01" notAfter="1971-12-31">1971-01-01--1971-12-31</date>
@@ -241,22 +185,6 @@
                      <geo>51.521418561139775 -0.1226937151948393</geo>
                   </location>-->
                </desc>
-            </event>
-            <event xml:id="amp-transcript__0052.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0171/">
-               <head xml:lang="en">
-                  <date notBefore="1972-07-26" notAfter="1972-08-25">1972-07-26--1972-08-25</date>
-               </head>
-               <label xml:lang="en">Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</label>
-            </event>
-            <event xml:id="amp-transcript__0049.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0243/">
-               <head xml:lang="en">
-                  <date notBefore="1973-01-01" notAfter="1973-12-31">[1973]</date>
-               </head>
-               <label xml:lang="en">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden [1973]</label>
             </event>
             <event xml:id="e007" type="event">
                <head xml:lang="en">
@@ -290,19 +218,39 @@
                   <idno type="geonames">https://www.geonames.org/2645801</idno>
                </desc>
             </event>
+            <event xml:id="amp-transcript__0062.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0351/">
+               <head xml:lang="en">
+                  <date notBefore="1976-09-04T00:00:00+01:00"
+                        notAfter="1980-12-01T23:59:59+01:00">1976-09-04--1980-12-01</date>
+               </head>
+               <label xml:lang="en">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</label>
+            </event>
+            <event xml:id="e009" type="event">
+               <head xml:lang="en">
+                  <date notBefore="1977-01-01" notAfter="1977-12-31">1977-01-01--1977-12-31</date>
+               </head>
+               <desc>
+                  <title xml:lang="en">1977, Vienna and Kirchstetten, Austria</title>
+                  The Internationale W. H. Auden-Gesellschaft [International W. H. Auden Society], based in Vienna and Kirchstetten, is founded by writer and journalist Karlheinz Roschitz and Peter Müller, press officer of the Federal Monuments Authority Austria. Among the committee members are Stella Musulin and Herta Staub, his translator. The honorary chairman is then Federal Chancellor Bruno Kreisky.
+               </desc>
+            </event>
             <event xml:id="amp-transcript__0060.xml"
-                   type="additional-materials"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/">
                <head xml:lang="en">
-                  <date notBefore="1977-03-22" notAfter="1977-03-22">1977-03-22</date>
+                  <date notBefore="1977-03-22T00:00:00+01:00"
+                        notAfter="1977-03-22T23:59:59+01:00">1977-03-22</date>
                </head>
                <label xml:lang="en">Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</label>
             </event>
             <event xml:id="amp-transcript__0061.xml"
-                   type="additional-materials"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0251/">
                <head xml:lang="en">
-                  <date notBefore="1977-04-05" notAfter="1977-04-05">1977-04-05</date>
+                  <date notBefore="1977-04-05T00:00:00+01:00"
+                        notAfter="1977-04-05T23:59:59+01:00">1977-04-05</date>
                </head>
                <label xml:lang="en">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</label>
             </event>
@@ -327,15 +275,6 @@
                   <idno type="geonames">https://www.geonames.org/2775259</idno>
                </desc>
             </event>
-            <event xml:id="e009" type="event">
-               <head xml:lang="en">
-                  <date notBefore="1977-01-01" notAfter="1977-12-31">1977-01-01--1977-12-31</date>
-               </head>
-               <desc>
-                  <title xml:lang="en">1977, Vienna and Kirchstetten, Austria</title>
-                  The Internationale W. H. Auden-Gesellschaft [International W. H. Auden Society], based in Vienna and Kirchstetten, is founded by writer and journalist Karlheinz Roschitz and Peter Müller, press officer of the Federal Monuments Authority Austria. Among the committee members are Stella Musulin and Herta Staub, his translator. The honorary chairman is then Federal Chancellor Bruno Kreisky.
-               </desc>
-            </event>
             <event xml:id="e011" type="event">
                <head xml:lang="en">
                   <date notBefore="1978-03-06" notAfter="1978-03-06">1978-03-06</date>
@@ -357,29 +296,50 @@
                   <idno type="geonames">https://www.geonames.org/2779247</idno>
                </desc>
             </event>
+            <event xml:id="amp-transcript__0032.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0227/">
+               <head xml:lang="en">
+                  <date notBefore="1980-12-01T00:00:00-05:00"
+                        notAfter="1980-12-01T23:59:59-05:00">1980-12-01</date>
+               </head>
+               <label xml:lang="en">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</label>
+            </event>
             <event xml:id="amp-transcript__0033.xml"
-                   type="additional-materials"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0229/">
                <head xml:lang="en">
-                  <date notBefore="1981-11-21" notAfter="1981-11-21">1981-11-21</date>
+                  <date notBefore="1981-11-21T00:00:00-05:00"
+                        notAfter="1981-11-21T23:59:59-05:00">1981-11-21</date>
                </head>
                <label xml:lang="en">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</label>
             </event>
             <event xml:id="amp-transcript__0034.xml"
-                   type="additional-materials"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/">
                <head xml:lang="en">
-                  <date notBefore="1984-05-31" notAfter="1984-05-31">1984-05-31</date>
+                  <date notBefore="1984-05-31T00:00:00+01:00"
+                        notAfter="1984-05-31T23:59:59+01:00">1984-05-31</date>
                </head>
                <label xml:lang="en">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</label>
             </event>
+            <event xml:id="amp-transcript__0037.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/">
+               <head xml:lang="en">
+                  <date notBefore="1984-08-15T00:00:00+01:00"
+                        notAfter="1996-01-21T23:59:59+00:00">1984-08-15--1996-01-21</date>
+               </head>
+               <label xml:lang="en">Autograph Card Signed Michael O'Sullivan to Stella Musulin 1984-08-15--1996-01-21</label>
+            </event>
             <event xml:id="amp-transcript__0036.xml"
-                   type="additional-materials"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0241/">
                <head xml:lang="en">
-                  <date notBefore="1984-08-15" notAfter="1984-08-15">1984-08-15</date>
+                  <date notBefore="1984-08-15T00:00:00+01:00"
+                        notAfter="1984-08-15T23:59:59+01:00">1984-08-15</date>
                </head>
-               <label xml:lang="en">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</label>
+               <label xml:lang="en">Autograph Card Michael O'Sullivan to Stella Musulin 1984-08-15</label>
             </event>
             <event xml:id="e012" type="event">
                <head xml:lang="en">
@@ -402,37 +362,41 @@
                   <idno type="geonames">https://www.geonames.org/2775260</idno>
                </desc>
             </event>
-            <event xml:id="amp-transcript__0030.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/">
+            <event xml:id="amp-transcript__0056.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0179/">
                <head xml:lang="en">
-                  <date notBefore="1985-11-29" notAfter="1985-11-29">1985-11-29</date>
+                  <date notBefore="1985-11-29T00:00:00+01:00"
+                        notAfter="1990-03-28T23:59:59+02:00">1985-11-29--1990-03-28</date>
                </head>
-               <label xml:lang="en">Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</label>
-            </event>
-            <event xml:id="amp-transcript__0031.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0223/">
-               <head xml:lang="en">
-                  <date notBefore="1985-12-15" notAfter="1985-12-15">1985-12-15</date>
-               </head>
-               <label xml:lang="en">Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</label>
+               <label xml:lang="en">Autograph Notes [?] on Stella Musulin "Auden in Kirchstetten" and "In Retrospect" 1985-11-29--1990-03-28</label>
             </event>
             <event xml:id="amp-transcript__0028.xml"
-                   type="memoirs"
+                   type="correspondence"
                    facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0181/">
                <head xml:lang="en">
-                  <date notBefore="1985-11-29" notAfter="1990-03-13">1985-11-29--1990-03-13</date>
+                  <date notBefore="1985-11-29T00:00:00+01:00"
+                        notAfter="1990-03-28T23:59:59+02:00">1985-11-29--1990-03-28</date>
                </head>
-               <label xml:lang="en">Typescript Stella Musulin "In Retrospect" 1985-11-29--1990-03-13</label>
+               <label xml:lang="en">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</label>
             </event>
-            <event xml:id="amp-transcript__0027.xml"
-                   type="additional-materials"
-                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0155/">
+            <event xml:id="amp-transcript__0030.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/">
                <head xml:lang="en">
-                  <date notBefore="1970-05-21" notAfter="1995-12-31">1970-05-21--1995-12-31</date>
+                  <date notBefore="1985-11-29T00:00:00+01:00"
+                        notAfter="1985-11-29T23:59:59+01:00">1985-11-29</date>
                </head>
-               <label xml:lang="en">Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1995-12-31</label>
+               <label xml:lang="en">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</label>
+            </event>
+            <event xml:id="amp-transcript__0031.xml"
+                   type="correspondence"
+                   facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0223/">
+               <head xml:lang="en">
+                  <date notBefore="1985-12-15T00:00:00+01:00"
+                        notAfter="1985-12-15T23:59:59+01:00">1985-12-15</date>
+               </head>
+               <label xml:lang="en">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</label>
             </event>
             <event xml:id="e013" type="event">
                <head xml:lang="en">
